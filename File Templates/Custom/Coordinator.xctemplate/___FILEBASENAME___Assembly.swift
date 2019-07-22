@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___FILEBASENAME___: Assembly {
+final class ___FILEBASENAME___: ModuleAssembly {
     func build() -> ___VARIABLE_coordinatorName___Type {
         let navigationController = UINavigationController(rootViewController: UIViewController())
         let router = Router(navigationController: navigationController)

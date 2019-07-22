@@ -14,8 +14,15 @@ final class ___FILEBASENAME___: ModuleAssembly {
     func build() -> ___VARIABLE_moduleName___Module {
         
         // View
-        let view = ___VARIABLE_moduleName___ViewController()
+        let view = ___VARIABLE_moduleName___ViewController.controllerFromStoryboard("___VARIABLE_moduleName___")
         
-        return Module(view: view, input: view, output: view)
+        // Presenter
+        let presenter = ___VARIABLE_moduleName___Presenter()
+        
+        // Dependency Setup
+        presenter.view = view
+        view.output = presenter
+        
+        return Module(view: view, input: presenter, output: presenter)
     }
 }

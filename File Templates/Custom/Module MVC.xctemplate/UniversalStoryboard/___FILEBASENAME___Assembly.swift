@@ -10,7 +10,7 @@ import UIKit
 
 typealias ___VARIABLE_moduleName___Module = Module<___VARIABLE_moduleName___ModuleInput, ___VARIABLE_moduleName___ModuleOutput>
 
-class ___FILEBASENAME___: Assembly {
+final class ___FILEBASENAME___: ModuleAssembly {
     func build() -> ___VARIABLE_moduleName___Module {
         
         // View
