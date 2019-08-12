@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import PRODUCTNAMECore
 
-protocol ___FILEBASENAME___: CoordinatorType, Presentable {
+public protocol ___FILEBASENAME___: CoordinatorType, Presentable {
 	
 }

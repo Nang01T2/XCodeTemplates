@@ -7,7 +7,10 @@
 //
 
 import Foundation
+import PRODUCTNAMECore
 
-class ___FILEBASENAME___: BaseCoordinator, ___VARIABLE_coordinatorName___Type {
-	
+public class ___FILEBASENAME___: BaseCoordinator, ___VARIABLE_coordinatorName___Type {
+	override func start() {
+        // IMPLEMENT ME
+    }
 }

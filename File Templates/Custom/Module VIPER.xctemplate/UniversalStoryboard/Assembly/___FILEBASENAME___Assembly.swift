@@ -16,8 +16,10 @@ public final class ___FILEBASENAME___: ModuleAssembly {
     
     func build() -> ___VARIABLE_moduleName___Module {
         
+        let bundle = Bundle(for: BundleToken.self)
+        
         // View
-        let view = ___VARIABLE_moduleName___ViewController()
+        let view = ___VARIABLE_moduleName___ViewController.instantiate(fromStoryboard: "___VARIABLE_moduleName___", at: bundle)
         
         // Interactor
         let interactor = ___VARIABLE_moduleName___Interactor()
@@ -33,3 +35,5 @@ public final class ___FILEBASENAME___: ModuleAssembly {
         return Module(view: view, input: presenter, output: presenter)
     }
 }
+
+private final class BundleToken {}

@@ -13,9 +13,13 @@ typealias ___VARIABLE_moduleName___Module = Module<___VARIABLE_moduleName___Modu
 final class ___FILEBASENAME___: ModuleAssembly {
     func build() -> ___VARIABLE_moduleName___Module {
         
+        let bundle = Bundle(for: BundleToken.self)
+        
         // View
-        let view = ___VARIABLE_moduleName___ViewController.instantiate(fromStoryboard: "___VARIABLE_moduleName___")
+        let view = ___VARIABLE_moduleName___ViewController.instantiate(fromStoryboard: "___VARIABLE_moduleName___", at: bundle)
         
         return Module(view: view, input: view, output: view)
     }
 }
+
+private final class BundleToken {}
