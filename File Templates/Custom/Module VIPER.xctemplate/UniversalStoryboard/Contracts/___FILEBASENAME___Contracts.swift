@@ -9,11 +9,11 @@
 import Foundation
 
 // Module Input
-protocol ___VARIABLE_moduleName___ModuleInput {
+public protocol ___VARIABLE_moduleName___ModuleInput {
     
 }
 
 // Module Output
-protocol ___VARIABLE_moduleName___ModuleOutput {
+public protocol ___VARIABLE_moduleName___ModuleOutput {
     
 }
