@@ -8,8 +8,11 @@
 
 import Foundation
 
-final class ___FILEBASENAME___: ModuleAssembly {
-    func build() -> ___VARIABLE_serviceName___Type {
+public final class ___FILEBASENAME___: ModuleAssembly {
+    
+    public init() {}
+    
+    public func build() -> ___VARIABLE_serviceName___Type {
         let service = ___VARIABLE_serviceName___()
         return service
     }

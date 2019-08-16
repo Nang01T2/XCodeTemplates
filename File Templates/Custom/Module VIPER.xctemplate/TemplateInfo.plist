@@ -50,6 +50,8 @@
 			<key>Values</key>
 			<array>
 				<string>Universal</string>
+				<string>With Dedicated Table View</string>
+				<string>With Dedicated Collection View</string>
 			</array>
 		</dict>
 		<dict>

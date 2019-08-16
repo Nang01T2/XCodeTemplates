@@ -14,7 +14,7 @@ public final class ___FILEBASENAME___: ModuleAssembly {
     public init() {}
     
     public func build() -> ___VARIABLE_coordinatorName___Type {
-        let navigationController = UINavigationController(rootViewController: UIViewController())
+        let navigationController = NavigationController(rootViewController: UIViewController())
         let router = Router(navigationController: navigationController)
 
         let coordinator = ___VARIABLE_coordinatorName___(router: router)
