@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___FILEBASENAME___: UIViewController, Storyboarded {
+class ___FILEBASENAME___: UIViewController {
     var presenter: ___VARIABLE_moduleName___ViewInput!
     
     override func viewDidLoad() {

@@ -11,7 +11,7 @@ import Foundation
 class ___FILEBASENAME___: ___VARIABLE_moduleName___ModuleOutput {
     
     // MARK: - Weak properties
-    weak var view: ___VARIABLE_moduleName___ViewInput?
+    weak var view: ___VARIABLE_moduleName___ViewOutput?
 }
 
 // MARK: Private
@@ -24,8 +24,8 @@ extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ModuleInp
     
 }
 
-// MARK: View Output
-extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutput {
+// MARK: View Input
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewInput {
     func viewDidLoad() {
         
     }

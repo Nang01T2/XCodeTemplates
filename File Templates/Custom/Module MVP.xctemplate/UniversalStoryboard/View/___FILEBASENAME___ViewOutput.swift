@@ -3,11 +3,9 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___
-//	___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
-import Foundation
-
-public protocol ___FILEBASENAME___ {
-	
+protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
+    func viewDidLoad()
 }

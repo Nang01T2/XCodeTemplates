@@ -14,21 +14,17 @@ public final class ___FILEBASENAME___: ModuleAssembly {
     
     public init() {}
     
-    func build() -> ___VARIABLE_moduleName___Module {
+    public func build() -> ___VARIABLE_moduleName___Module {
         
         // View
-        let view = StoryboardScene.___VARIABLE_moduleName___.___VARIABLE_moduleName___ViewController.instantiate()
-        
-        // Interactor
-        let interactor = ___VARIABLE_moduleName___Interactor()
+        let view = ___VARIABLE_moduleName___ViewController()
         
         // Presenter
-        let presenter = ___VARIABLE_moduleName___Presenter(interactor: interactor)
+        let presenter = ___VARIABLE_moduleName___Presenter()
         
         // Dependency Setup
         presenter.view = view
         view.presenter = presenter
-        interactor.presenter = presenter
         
         return Module(view: view, input: presenter, output: presenter)
     }

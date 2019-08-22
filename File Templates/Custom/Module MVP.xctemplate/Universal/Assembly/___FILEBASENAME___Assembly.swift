@@ -8,20 +8,23 @@
 
 import UIKit
 
-typealias ___VARIABLE_moduleName___Module = Module<___VARIABLE_moduleName___ModuleInput, ___VARIABLE_moduleName___ModuleOutput>
+public typealias ___VARIABLE_moduleName___Module = Module<___VARIABLE_moduleName___ModuleInput, ___VARIABLE_moduleName___ModuleOutput>
 
-final class ___FILEBASENAME___: ModuleAssembly {
-    func build() -> ___VARIABLE_moduleName___Module {
+public final class ___FILEBASENAME___: ModuleAssembly {
+    
+    public init() {}
+    
+    public func build() -> ___VARIABLE_moduleName___Module {
         
         // View
-        let view = ___VARIABLE_moduleName___ViewController.controllerFromStoryboard("___VARIABLE_moduleName___")
+        let view = ___VARIABLE_moduleName___ViewController()
         
         // Presenter
         let presenter = ___VARIABLE_moduleName___Presenter()
         
         // Dependency Setup
         presenter.view = view
-        view.output = presenter
+        view.presenter = presenter
         
         return Module(view: view, input: presenter, output: presenter)
     }

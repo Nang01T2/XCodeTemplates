@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ___FILEBASENAME___: UIViewController, ___VARIABLE_moduleName___ViewInput {
-    var output: ___VARIABLE_moduleName___ViewOutput!
+class ___FILEBASENAME___: UIViewController {
+    var presenter: ___VARIABLE_moduleName___ViewInput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        output.viewDidLoad()
+        presenter.viewDidLoad()
     }
+}
+
+// MARK: ___VARIABLE_moduleName___ViewOutput
+extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewOutput {
+    
 }
 
 // MARK: Button Action

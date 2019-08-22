@@ -6,7 +6,7 @@
 //	___COPYRIGHT___
 //
 
-import Foundation
+import PRODUCTNAMECore
 
 public final class ___FILEBASENAME___: ModuleAssembly {
     
