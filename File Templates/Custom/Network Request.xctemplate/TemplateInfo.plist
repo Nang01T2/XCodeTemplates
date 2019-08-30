@@ -5,9 +5,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>An custom network request file.</string>
+	<string>An empty Swift file.</string>
 	<key>Summary</key>
-	<string>An custom network request file.</string>
+	<string>An empty Swift file</string>
 	<key>SortOrder</key>
 	<string>30</string>
 	<key>AllowedTypes</key>

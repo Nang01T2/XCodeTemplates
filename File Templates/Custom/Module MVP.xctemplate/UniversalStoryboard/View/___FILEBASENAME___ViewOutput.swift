@@ -7,5 +7,5 @@
 //
 
 protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
-    func viewDidLoad()
+    
 }

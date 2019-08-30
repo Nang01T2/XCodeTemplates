@@ -13,7 +13,6 @@ class ___FILEBASENAME___: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter.viewDidLoad()
     }
 }
 
